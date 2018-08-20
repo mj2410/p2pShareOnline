@@ -1,14 +1,11 @@
 package com.p2pShareOnline.business;
 
-import java.io.DataInputStream;
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-public class Client {
+public class Client implements Serializable {
     private Peer peer;
     private static String location = System.getProperty("user.home") + File.separator + "SharedFiles";
     private String pairIp;

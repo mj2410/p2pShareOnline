@@ -1,14 +1,11 @@
 package com.p2pShareOnline.business;
 
 import java.beans.PropertyChangeListener;
-import java.io.DataOutputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.RandomAccessFile;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class Listener implements Runnable {
+public class Listener implements Runnable, Serializable {
     private File file;
     private Socket pair;
     private int listenPort;

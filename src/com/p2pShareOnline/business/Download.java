@@ -6,7 +6,7 @@ import java.nio.channels.Channels;
 import java.nio.channels.FileChannel;
 import java.nio.channels.ReadableByteChannel;
 
-public class Download implements Runnable {
+public class Download implements Runnable, Serializable {
     private String pairIp;
     private Socket p2p;
 
