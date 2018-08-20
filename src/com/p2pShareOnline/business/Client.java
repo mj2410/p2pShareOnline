@@ -1,4 +1,4 @@
-package com.p2pShareOnline.business.client;
+package com.p2pShareOnline.business;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

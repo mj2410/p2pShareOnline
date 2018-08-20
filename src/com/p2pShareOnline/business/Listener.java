@@ -1,4 +1,4 @@
-package com.p2pShareOnline.business.client;
+package com.p2pShareOnline.business;
 
 import java.beans.PropertyChangeListener;
 import java.io.DataOutputStream;

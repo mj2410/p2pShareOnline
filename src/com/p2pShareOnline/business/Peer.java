@@ -1,6 +1,4 @@
-package com.p2pShareOnline.business.client;
-
-import com.p2p.server.Server;
+package com.p2pShareOnline.business;
 
 import java.io.*;
 import java.net.InetAddress;
