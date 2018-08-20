@@ -5,7 +5,7 @@ import com.p2pShareOnline.business.User;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class UserIO implements Serializable {
+public class UserIO{
 
     public static boolean add(User user, String path) {
         try {
